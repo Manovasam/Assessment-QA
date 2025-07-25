@@ -1,2 +1,3 @@
-# Assessment-QA
-Task: Automate creating an account on the website 
+# Magento Automation
+
+Automation script using Selenium and Python with Page Object Model.
