@@ -15,4 +15,4 @@ class RegisterPage(BasePage):
         self.enter_text(self.EMAIL, email)
         self.enter_text(self.PASSWORD, password)
         self.enter_text(self.CONFIRM_PASSWORD, password)
-        self.click(self.SUBMIT)
+        self.click(self.SUBMIT) 
