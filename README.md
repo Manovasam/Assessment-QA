@@ -16,7 +16,6 @@ It uses **Selenium WebDriver**, **Python**, and follows the **Page Object Model 
 4. Change Password
 
 ---
-
 #Project Structure
 
 magento_automation/
