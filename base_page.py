@@ -18,5 +18,5 @@ class BasePage:
     def is_visible(self, by_locator):
         return WebDriverWait(self.driver, self.timeout).until(EC.visibility_of_element_located(by_locator))
 
-    def go_to(self, url):
+    def go_to(self, url): 
         self.driver.get(url)
