@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 class ChangePasswordPage(BasePage):
     CURRENT = (By.ID, "current-password")
     NEW = (By.ID, "password")
-    CONFIRM = (By.ID, "password-confirmation")
+    CONFIRM = (By.ID, "password-confirmation") 
     SAVE = (By.CSS_SELECTOR, "button[title='Save']")
 
     def change_password(self, old_pass, new_pass):
